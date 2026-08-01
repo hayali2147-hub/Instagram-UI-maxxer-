@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>You & Me — Code With Anurag</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div id="scene">
+        <canvas id="c"></canvas>
+        <div id="overlay">
+            <div id="tagline"></div>
+        </div>
+    </div>
+    <div id="nameCard">
+        <button id="toggleNameBox" title="Hide/show name box">✎</button>
+        <div id="nameBox">
+            <input id="name1" type="text" placeholder="Your Name" maxlength="14" />
+            <span class="amp">&amp;</span>
+            <input id="name2" type="text" placeholder="Her Name" maxlength="14" />
+        </div>
+    </div>
+    <div id="watermark">Code With Anurag</div>
+    <button id="replay" onclick="init()">↺ Replay</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
